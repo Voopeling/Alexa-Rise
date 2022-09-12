@@ -7,7 +7,7 @@
 }
 
 .hero__white {
-   background: url(/img/hero-bg-light.jpg);
+   background: url(../img/hero-bg-light.jpg);
    background-position: center -90px;
    background-repeat: no-repeat;
 }
