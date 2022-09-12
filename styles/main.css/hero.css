@@ -1,13 +1,13 @@
 .hero {
    height: 82rem;
-   background: url(../img/bg.jpg);
+   background: url(/img/bg.jpg);
    background-position: center -90px;
    background-repeat: no-repeat;
 
 }
 
 .hero__white {
-   background: url(../img/bg\ light.jpg);
+   background: url(/img/bg\ light.jpg);
    background-position: center -90px;
    background-repeat: no-repeat;
 }

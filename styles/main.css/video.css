@@ -3,7 +3,7 @@
 }
 
 .vudeo__player {
-   background: url(../img/video-player\ bg.jpg);
+   background: url(/img/video-player\ bg.jpg);
    min-height: 70.5rem;
    max-width: 140rem;
    margin: 6rem auto;

@@ -1,6 +1,6 @@
 .contact {
    min-height: 70rem;
-   background: url(../img/contacts.jpg);
+   background: url(/img/contacts.jpg);
 }
 
 .contact__container {
