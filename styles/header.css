@@ -1,0 +1,176 @@
+.header {
+   height: 9rem;
+   background: url(../img/bg.jpg);
+   display: flex;
+   align-items: center;
+   background-position: center 0;
+
+}
+
+
+
+
+.header__nav {
+   margin-left: auto;
+   display: flex;
+   justify-content: space-evenly;
+   width: 50rem;
+   padding: 0;
+}
+
+.header__language {
+   margin-right: 2rem;
+   display: flex;
+   height: 5rem;
+   width: 7rem;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header-logo {
+   height: 4rem;
+   margin-left: 2rem;
+   cursor: pointer;
+
+}
+
+.header-logo:hover {
+   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+   transition: 1s;
+}
+
+.nav-items {
+   color: #FFFFFF;
+   list-style: none;
+   font-size: 2rem;
+   line-height: 5rem;
+   text-decoration: none;
+}
+
+
+.nav-items:hover {
+   color: #bdae82;
+   transition: 1s;
+}
+
+.language-en {
+   border: none;
+   background: none;
+   color: #FFFFFF;
+   font-size: 2rem;
+   line-height: 5rem;
+   padding: 0;
+   cursor: pointer;
+}
+
+.language-slash {
+   color: #FFFFFF;
+   font-size: 2rem;
+   line-height: 5rem;
+}
+
+.language-ru {
+   border: none;
+   background: none;
+   color: #FFFFFF;
+   font-size: 2rem;
+   line-height: 5rem;
+   padding: 0;
+   cursor: pointer;
+}
+
+.header__sandwich {
+   width: 5rem;
+   height: 2.8rem;
+   margin: auto 6.4rem auto 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   display: none;
+   cursor: pointer;
+}
+
+.line {
+   height: 0.3rem;
+   background: #FFFFFF;
+
+}
+
+.language-ru:hover {
+   color: #bdae82;
+   transition: 1s;
+}
+
+.language-en:hover {
+   color: #bdae82;
+   transition: 1s;
+}
+
+.light {
+   max-height: 4.5rem;
+   max-width: 4.5rem;
+   padding: 0;
+   margin-right: 2.1rem;
+   background: none;
+   border: none;
+   cursor: pointer;
+}
+
+.light-sun:hover {
+   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+   transition: 1s;
+}
+
+.header__white {
+   background: url(../img/bg\ light.jpg);
+   background-position: center 0;
+}
+
+.nav-items_white {
+   color: #1C1C1C;
+}
+
+.white_activ {
+   color: #1C1C1C;
+}
+
+.light-sun {
+   display: block;
+}
+
+.light-lun {
+   display: none;
+}
+
+.light-sun_activ {
+   display: none;
+}
+
+.light-lun_activ {
+   display: block;
+}
+
+.logo_activ {
+   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(0%) contrast(87%);
+}
+
+
+
+@media (max-width: 768px) {
+   .nav-items {
+      display: none;
+   }
+
+   .header__sandwich {
+      display: flex;
+   }
+
+   .header-logo {
+      margin-left: 6rem;
+   }
+
+   .header {
+      background-size: 100rem;
+      background-position: top 0 left 0;
+   }
+}

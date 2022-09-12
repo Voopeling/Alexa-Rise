@@ -1,0 +1,36 @@
+.video {
+   min-height: 94.5rem;
+}
+
+.vudeo__player {
+   background: url(../img/video-player\ bg.jpg);
+   min-height: 70.5rem;
+   max-width: 140rem;
+   margin: 6rem auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-position: center;
+}
+
+.playr-go {
+   cursor: pointer;
+}
+
+.playr-go:hover {
+   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+   transition: 1s;
+}
+
+@media (max-width: 768px) {
+   .video {
+      min-height: 62.8rem;
+   }
+
+   .vudeo__player {
+      min-height: 41.8rem;
+      max-width: 76.8rem;
+      background: url(../img/video-player-media.png);
+      background-position: center;
+   }
+}

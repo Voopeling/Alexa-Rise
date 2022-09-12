@@ -1,0 +1,85 @@
+.skills {
+   min-height: 48.2rem;
+
+}
+
+.title {
+   color: #BDAE82;
+   text-align: center;
+   font-size: 4rem;
+   line-height: 8rem;
+   padding-top: 10rem;
+   font-family: 'Merriweather', serif;
+   margin: 0 auto;
+}
+
+.title::before,
+.title::after {
+   content: "";
+   display: inline-block;
+   vertical-align: middle;
+   background-color: #BDAE82;
+   height: 0.2rem;
+   width: 27.4rem;
+   margin-right: 2rem;
+   margin-left: 2rem;
+}
+
+.skills__item {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding-top: 6rem;
+}
+
+.item__ability {
+   max-width: 32rem;
+   min-height: 24rem;
+}
+
+.ability-logo {
+   display: block;
+   margin: auto;
+}
+
+.abiliti-title {
+   color: #FFFFFF;
+   text-align: center;
+   padding-top: 5rem;
+   font-size: 2rem;
+   line-height: 4rem;
+   margin: 0;
+   font-weight: 700;
+}
+
+.abiliti-subtitle {
+   color: #FFFFFF;
+   text-align: center;
+   margin: 0;
+   font-size: 18px;
+   line-height: 36px;
+   padding-top: 2rem;
+}
+
+.white_activ {
+   color: #1C1C1C;
+}
+
+@media (max-width: 1280px) {
+   .skills__item {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      column-gap: 2rem;
+      row-gap: 2rem;
+   }
+
+   .item__ability {
+      max-width: 30rem
+   }
+
+   .title::before,
+   .title::after {
+      width: 11.7rem;
+   }
+}
