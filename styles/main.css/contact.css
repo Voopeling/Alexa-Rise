@@ -1,6 +1,6 @@
 .contact {
    min-height: 70rem;
-   background: url(/img/contacts.jpg);
+   background: url(../img/contacts.jpg);
 }
 
 .contact__container {
@@ -88,7 +88,7 @@
 }
 
 .contact_active {
-   background: url(../img/contacts-White.jpg);
+   background: url(../img/contacts-white.jpg);
 }
 
 @media(max-width:768px) {
